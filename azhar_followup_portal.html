@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>الخطة والمتابعة – منطقة الشرقية الأزهرية</title>
+  <style>
+    :root{
+      --azhar-gold: #c49a41;
+      --azhar-blue: #154a7a;
+      --card-bg: #ffffff;
+      --page-bg: #f4f7fb;
+      --text: #222;
+    }
+    body{font-family: "Segoe UI", Tahoma, Arial, sans-serif;background:var(--page-bg);color:var(--text);margin:0;padding:20px;}
+    .container{max-width:980px;margin:18px auto;padding:22px;}
+    header{display:flex;align-items:center;gap:18px;margin-bottom:18px;}
+    .logo{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,var(--azhar-gold),#f3d59a);display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;font-size:18px;box-shadow:0 6px 18px rgba(0,0,0,0.08);}
+    h1{margin:0;font-size:22px;color:var(--azhar-blue);}
+    p.lead{margin:6px 0 0;color:#333;opacity:0.9}
+    .actions{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;}
+    .btn{background:var(--azhar-blue);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;display:inline-block;font-weight:600;box-shadow:0 6px 18px rgba(21,74,122,0.12)}
+    .btn.ghost{background:transparent;border:2px solid var(--azhar-blue);color:var(--azhar-blue);font-weight:700}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:22px;}
+    .card{background:var(--card-bg);padding:14px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.06);}
+    .card h3{margin:0 0 6px 0;color:var(--azhar-blue);font-size:18px}
+    .card p{margin:0 0 12px 0;color:#333;opacity:0.9}
+    .link-row{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .link{display:inline-flex;gap:8px;align-items:center;text-decoration:none;color:var(--azhar-blue);font-weight:700}
+    .small{font-size:13px;color:#666}
+    .footer{margin-top:24px;padding:12px;border-radius:10px;background:#fff;text-align:center;color:#444;box-shadow:0 6px 14px rgba(0,0,0,0.04)}
+    input[type="search"]{width:100%;padding:10px 12px;border-radius:10px;border:1px solid #d8e1ee;background:white;box-sizing:border-box;font-size:15px;margin-top:12px}
+    .copy-btn{background:var(--azhar-gold);color:#fff;padding:6px 10px;border-radius:8px;border:none;cursor:pointer;font-weight:700}
+    .note{background:#fff3cd;padding:10px;border-radius:10px;color:#6b4b00;border:1px solid #ffeeba;margin-bottom:12px}
+    @media (max-width:520px){header{flex-direction:column;align-items:flex-start}.logo{width:68px;height:68px}}
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <div class="logo">الأزهر</div>
+      <div>
+        <h1>الخطة والمتابعة – منطقة الشرقية الأزهرية</h1>
+        <p class="lead">مكتبة ملفات الخطة والمتابعة الرسمية — تحميل مباشر لأي موظف أو إدارة. أنت المسئول عن رفع الملفات داخل مجلدات Drive، والزوار يستطيعون التحميل فقط.</p>
+        <div class="actions">
+          <a class="btn" href="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing" target="_blank" rel="noopener">عرض مجلد النماذج</a>
+          <a class="btn ghost" href="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing" target="_blank" rel="noopener">تحميل كل الملفات</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="note small">
+      ملاحظة هامة: الموقع للتحميل فقط — لا يسمح للزوار بالرفع أو التعديل. لإنشاء مجلدات جديدة أو رفع ملفات، سجّل دخولك إلى حساب Google Drive الخاص بالإدارة وقم بالرفع داخل المجلدات المخصصة.
+    </div>
+
+    <label for="search" class="small">ابحث عن اسم الملف أو النموذج:</label>
+    <input id="search" type="search" placeholder="اكتب هنا (مثال: نموذج المتابعة الأسبوعية)" aria-label="بحث">
+
+    <div class="grid" id="cards">
+      <div class="card" data-keywords="نماذج المتابعة اليومية نموذج متابعة أسبوعية">
+        <h3>نماذج المتابعة اليومية</h3>
+        <p>مجموعة النماذج الرسمية للمتابعة اليومية وأنشطة الحصر.</p>
+        <div class="link-row">
+          <a class="link" href="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing" target="_blank">فتح المجلد</a>
+          <div>
+            <button class="copy-btn" data-link="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing">انسخ رابط المجلد</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-keywords="التعليمات توجيهات مكاتبات">
+        <h3>التعليمات والتوجيهات</h3>
+        <p>مكاتبات وإرشادات رسمية خاصة بإجراءات الخطة والمتابعة.</p>
+        <div class="link-row">
+          <a class="link" href="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing" target="_blank">فتح المجلد</a>
+          <div>
+            <button class="copy-btn" data-link="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing">انسخ رابط المجلد</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-keywords="التقارير شهرية تقارير الأداء">
+        <h3>التقارير الشهرية</h3>
+        <p>رفع ومتابعة تقارير الأداء الشهرية لكل إدارة.</p>
+        <div class="link-row">
+          <a class="link" href="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing" target="_blank">فتح المجلد</a>
+          <div>
+            <button class="copy-btn" data-link="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing">انسخ رابط المجلد</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-keywords="الأرشيف أرشيف العام السابق">
+        <h3>أرشيف الأعوام السابقة</h3>
+        <p>نسخ محفوظة من الملفات والبيانات السابقة لأغراض المراجعة والتوثيق.</p>
+        <div class="link-row">
+          <a class="link" href="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing" target="_blank">فتح المجلد</a>
+          <div>
+            <button class="copy-btn" data-link="https://drive.google.com/drive/folders/19DUq-1AYDfbg9wdhgYLLggWJL3n7kIqN?usp=sharing">انسخ رابط المجلد</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer small">
+      للتواصل: followup@azhar.gov.eg &nbsp; | &nbsp; هاتف: 055-xxxxxxx
+      <div style="margin-top:8px;color:#666;font-size:13px">مصدر الملفات: Google Drive (عرض فقط). الموقع تم إنشاؤه كنسخة جاهزة للتحميل ويمكنك تعديل الروابط أو النصوص بسهولة.</div>
+    </div>
+  </div>
+
+<script>
+// Copy link buttons
+document.querySelectorAll('.copy-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    navigator.clipboard?.writeText(btn.dataset.link).then(()=>{
+      btn.textContent = 'تم النسخ ✓';
+      setTimeout(()=> btn.textContent = 'انسخ رابط المجلد',1400);
+    }).catch(()=>{
+      alert('النسخ غير متاح في هذا المستعرض. انسخ الرابط يدويًا: ' + btn.dataset.link);
+    });
+  });
+});
+
+// Simple search for cards by data-keywords and title
+const search = document.getElementById('search');
+const cards = Array.from(document.querySelectorAll('.card'));
+search.addEventListener('input', ()=>{
+  const q = search.value.trim().toLowerCase();
+  cards.forEach(card=>{
+    const keywords = (card.getAttribute('data-keywords') + ' ' + card.querySelector('h3').textContent).toLowerCase();
+    if(q === '' || keywords.includes(q)) card.style.display = 'block'; else card.style.display = 'none';
+  });
+});
+</script>
+
+</body>
+</html>
